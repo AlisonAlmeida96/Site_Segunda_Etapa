@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Goddess Primal Chaos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <link rel="stylesheet" href="../plugins/magnific-popup.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+    <script src="../plugins/jquery.magnific-popup.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                // captions: true, title
+                // slideWidth: 800, tamanho
+                auto: true,
+                pager: true,
+                // speed: 100,
+                // controls: true
+            });
+		});
+    </script>
+
+</head>
+
+<body>
+
+	<main>
+
+		<header id="cabecalho">
+
+			<nav id="menu">
+				<ul>
+
+					<li><a href="../index.html" >Home</a></li>
+					<li><a href="../internas/classes.html">Classes</a></li>
+					<li><a href="../internas/canais_youtube.html" targer="_blank"> Vídeos</a></li>
+                    <li><a href="#" >Atributos</a></li>
+                    <li><a href="../internas/download.html">Download</a></li>
+                    <li><a href="../internas/eventos.html">Eventos</a></li>
+
+				</ul>
+			</nav>
+		</header>
+       
+        <div class="slider">
+
+
+			<div class="slide">
+					<img src="../imagens/slider/banner_1.jpg">
+			</div>
+					
+			<div class="slide" >
+					<img src="../imagens/slider/banner_2.jpg"> 
+			</div>
+
+			<div class="slide">
+					<img src="../imagens/slider/banner_3.jpg">
+			</div>
+
+			<div class="slide">
+					<img src="../imagens/slider/banner_4.jpg">
+			</div>
+
+   		 </div>
+
+
+		<section id="conteudo">
+            <h2>Atributos</h2>
+
+                <table border="1" id="atributos">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Importância</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dureza</td> 
+                            <td>
+                               Muito Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p> 
+                                        Dureza é um atributo muito importante para que você aplique dano. Pois isso vai influenciar se o seu dano entrará limpo ou reduzido em 50%.
+										Quando a dureza está em um nível bom, seu dano entra sem nenhuma redução e até mesmo com o crítico ativando. O que vai dizer isso é se você 
+										possui dureza suficiente para furar o bloqueio do inimigo. Podemos calcular a dureza necessária, multiplicando 6 de dureza para cada 1 de bloqueio.
+										Na defensive, a dureza serve para evitar que o seu oponente aplique dano crítico em suas unidades, para saber quanto de crítico será inibido pela
+										sua dureza atual, basta dividir o valor de dureza por 1.5. Na forma ofensiva, a dureza de todas as suas unidades vivas se somam para atacar, já
+										na defensiva, apenas o valor da unidade atacada é usada como cálculo.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>+Dano</td> 
+                            <td>
+                                Muito Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+                                        O +dano, é algo absoluto. Então todas as variáveis usadas para aplicar dano em seu oponente, serão influenciadas pelo +dano. Portanto, se você quer 
+									um personagem "danudo", você deverá possui um +dano bem alto.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Ataque</td> 
+                            <td>
+                            	 Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										Ter um ataque alto, é o combo perfeito quando você tem muito dano adicional e +dano. Esses 3 atributos juntos, podem fazer 
+										seus inimigos desaparecem com apenas uma skill.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Crítico</td> 
+                            <td>
+                            	 Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+                                        Crítico é um ótimo atributo para quem gosta de burstar os inimigos, principalmente a classe assassina, que usufrui de uma ultimate com 16 hits.
+										O crítico multiplica o seu dano por 1.5x, e pode ser intensificado com o dano adicional.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mortal</td> 
+                            <td>
+                                Muito Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										Mortal é um atributo que age defensivamente e ofensivamente. De forma ofensiva, ele garante que você aplique o seu ataque máximo, intensificando 
+										seu dano e ajudando quando você possuir o famoso "Buff Hela", mas para isso, você precisa ter o mortal total maior que o do seu oponente. Na forma 
+										defensiva, o mortal garante que o seu inimigo aplique o mínimo de ataque possível, assim você recebe pouco dano e tem mais chances de matá-lo antes
+										de morrer. Na forma ofensiva, o mortal de todas as suas unidades vivas se somam para atacar, já na defensiva, apenas o valor da unidade atacada é usada como cálculo.
+                                    </p>
+                                    
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Dano Adicional % </td> 
+                            <td>
+                                Muito Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										Como o nome já diz, é um adicional de dano em %. Quanto mais você possuir, mas dano irá aplicar. Somam-se os valores das unidades para atacar. 
+                                    </p>
+                                    
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>PvP</td> 
+                            <td>
+                                Extremamente Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										É o atributo mais importante de todos, tanto ofensivamente, quanto defensivamente. Ele intensifica todos os seus atributos, mas existe um porém: Ele
+										é o mais difícil e caro de se conseguir. Por isso sempre lembre de investir em material de anel, anéis tirânicos, nível e estrelas de dragão.
+                                    </p>
+                                    
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Bloqueio</td> 
+                            <td>
+                                Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										Esse atributo age de forma defensiva, cortando o dano recebido pelo oponente pela metade, caso ele não tenha dureza suficiente para
+										furar o seu bloqueio. É muito importante investir em deusas, domínios e cartas de bloqueio, assim poderá chegar a um valor alto e eficiente.
+										O bloqueio é um atributo importante, mas apenas no seu herói exo e se for usar no personagem, apenas no guerreiro. Pois para alcançar um valor alto
+										é necessário sacrificar ganhos de outros atributos importantes para as demais classes.
+                                    </p>
+                                    
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Bloqueio</td> 
+                            <td>
+                                Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										Esse atributo age de forma defensiva, cortando o dano recebido pelo oponente pela metade, caso ele não tenha dureza suficiente para
+										furar o seu bloqueio. É muito importante investir em deusas, domínios e cartas de bloqueio, assim poderá chegar a um valor alto e eficiente.
+										O bloqueio é um atributo importante, mas apenas no seu herói exo e se for usar no personagem, apenas no guerreiro. Pois para alcançar um valor alto
+										é necessário sacrificar ganhos de outros atributos importantes para as demais classes.
+                                    </p>
+                                    
+                                </ul>
+                            
+                            </td>
+                        </tr>
+						<tr>
+                            <td>Imune %</td> 
+                            <td>
+                                Muito Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+										O imune é um atributo dado em %, que oferece potencial defensivo ao seu personagem e unidades (Exo e Endo). Com ele, você poderá reduzir o dano recebido.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HP</td> 
+                            <td>
+                                Extremamente Alta
+                            </td>
+                            <td>
+                                <ul>
+                                    <p>
+                                      O HP é talvez, o principal atributo defensivo que existe no Goddess Primal Chaos. Com ele, você pode ficar mais tempo vivo e causar um verdade estrago, contra 
+									  seus oponentes, visto que com o HP alto, você terá muito tempo para que seus atributos defensivos e ofensivos sejam aproveitados da melhor forma. É uma importante 
+									  fonte de poder total.
+                                    </p>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+				<div>
+					<p><strong>
+                        Existem diversos outros atributos no jogo, trouxe apenas os mais conhecidos e importantes. Mas se quiser saber mais e conseguir evoluir sua conta,
+						entra em contato comigo. Podemos conversar sobre a melhor forma de você evoluir, dentro das suas limitações.
+                    </strong></p>
+					
+				</div>
+		</section>
+
+        <footer id="rodape">
+
+            <address>
+
+                <strong>Copyright 2018-2023 ArkGames, todos os direitos reservados.</strong>
+                <div id="empresa"> <img src="../imagens/footer/footer_imagem.png" alt=""></div>
+                <strong><p><a href="http://www.koramgame.com/?act=service.privacy"target="blank">Política de Privacidade </a> | <a href="http://www.koramgame.com/?act=service.terms" target="blank">
+                    Termos de Serviço</a> | <a href="http://www.koramgame.com/?act=service.aboutus" target="blank">Sobre Nós</a> | <a href="http://www.koramgame.com/?act=service.contactus"
+                    target="blank">Fale Conosco</a></p></strong>
+                 <strong><p> Site do Aluno: Alison Felipe da Silva  Almeida - 1º Período - Sistemas de Informação
+                            Instituição: <a href="https://www.unirios.edu.br/" target="blank"> Unirios - Centro Universitário do Rio São Francisco.</a>
+                </p></strong>
+                <strong><p>Instagram:<a href="https://www.instagram.com/almd_alisons/" target="blank">@almd_alisons</a></p></strong>
+
+            </address>
+    
+    </footer>
+    
+	</main>
+
+</body>
+
+</html>
